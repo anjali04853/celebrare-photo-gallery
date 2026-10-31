@@ -1,0 +1,13 @@
+@import "tailwindcss" source(".");
+
+@theme {
+  --font-sans: "Nunito Sans", "Segoe UI", Arial, sans-serif;
+  --font-serif: "Literata", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  body { @apply m-0 bg-[#fcf8f3] text-[#302332] antialiased; }
+  button, input { @apply focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#653b58]; }
+  button { @apply cursor-pointer; }
+  ::selection { @apply bg-[#ead8e3] text-[#302332]; }
+}

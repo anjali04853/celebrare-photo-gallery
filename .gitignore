@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.local
+coverage/
+tmp/
+.npm-cache/
+*.pdf
+stitch_still_responsive_photo_gallery/
+SUBMISSION.md
